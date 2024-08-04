@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 20%;
+    height: 20%;
+    background-color: white;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: row;
+    border-radius:50px;
+
+}
+
+.t1{
+    width: 220px;
+    height: 50px;
+    background-color: black;
+}
+
+.t2{
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-left: 200px solid;
+
+    color: black;
+}
